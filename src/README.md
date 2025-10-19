@@ -215,10 +215,10 @@ The KPhi-3 architecture is based on research in parameter reduction techniques:
 
 Required packages:
 ```bash
-pip install transformers>=4.51.3
-pip install accelerate>=1.10.1
-pip install torch>=2.0.0
-pip install flash-attn>=2.7.3  # Optional, for Flash Attention 2
+pip install transformers==4.51.3
+pip install accelerate==1.10.1
+pip install torch==2.0.0
+pip install flash-attn==2.7.3
 ```
 
 ## 🛠️ Development
