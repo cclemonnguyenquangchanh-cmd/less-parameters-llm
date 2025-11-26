@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        /* div+p {
+            background-color: yellow;
+        }
+        div~p {
+            background-color: yellow;
+        } */
+        /* div>p {
+            background-color: yellow;
+        } */
+
+        div p {
+            background-color: yellow;
+        }
+    </style>
+
+    <p>Nội dung 0</p>
+
+    <div>
+        <p>Nội dung 1</p>
+        <p>Nội dung 2</p>
+        <section>
+            <!-- <h2>Nội dung thẻ h2</h2> -->
+            <p>Nội dung 3</p>
+            <p>Nội dung 4</p>
+        </section>
+    </div>
+
+
+    <p>Nội dung 5</p>
+    <p>Nội dung 6</p>
+
+    <style>
+        .parent .child h3 {
+            color: orange;
+        }
+        .parent > h3 {
+            color: blue;
+        }
+    </style>
+
+    <h3>Nội dung khác</h3>
+    <div class="parent">
+        <h3>huhu</h3>
+        <div class="child">
+            <h3>Nội dung 1</h3>
+        </div>
+        <div class="child">
+            <h3>Nội dung 2</h3>
+        </div>
+        <div class="child">
+            <h3>Nội dung 3</h3>
+        </div>
+        <div class="child">
+            <h3>Nội dung 4</h3>
+        </div>
+    </div>
+
+</body>
+
+</html>

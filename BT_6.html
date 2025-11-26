@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Câu 5 | Bài tập bài 4 + 5</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  
+  <h2>Câu 6: Table (Bảng)</h2>
+  <p><strong>Yêu cầu</strong>: Sử dụng HTML và CSS để dựng bảng bên dưới (Dùng thẻ table, thead, tbody, tr, th, td).</p>
+
+<div class="table-scroll">
+      <!-- 
+        BẢNG DỮ LIỆU
+        - thead: tiêu đề cột
+        - tbody: nội dung các dòng
+        - tr: mỗi hàng
+        - th: ô tiêu đề
+        - td: ô dữ liệu
+      -->
+        <style>
+            
+    table th {
+      background: #96d5fe;
+    }
+
+    table th, table td {
+      padding: 10px 20px;
+    }
+
+    table td {
+      border-bottom: 1px solid #ddd;
+    }
+  
+        </style>
+      <table>
+        <thead>
+          <tr>
+            <!-- HÀNG TIÊU ĐỀ CỘT -->
+            <th>ID</th>
+            <th>Họ tên</th>
+            <th>Giới tính</th>
+            <th>Tuổi</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <!-- DÒNG 1 -->
+          <tr>
+            <td>1</td>
+            <td>Lê Văn A</td>
+            <td>Nam</td>
+            <td>18</td>
+          </tr>
+
+          <!-- DÒNG 2 -->
+          <tr>
+            <td>2</td>
+            <td>Lê Thị B</td>
+            <td>Nữ</td>
+            <td>22</td>
+          </tr>
+
+          <!-- DÒNG 3 -->
+          <tr>
+            <td>3</td>
+            <td>Lê Văn C</td>
+            <td>Nam</td>
+            <td>26</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 
+    MẸO:
+    - Nếu muốn viền bao quanh từng ô rõ hơn, có thể thêm:
+      table, th, td { border: 1px solid #d1d5db; }
+    - Nếu muốn thu nhỏ khoảng cách, giảm padding trong CSS ở thead th và tbody td.
+  -->
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+.color-red {
+    color: red;
+
+}
+
+#color-green {
+    color: green;
+
+}
+
+.huhu {
+
+    background: green;
+    color: green;
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+    text-transform: uppercase;
+    font-family: "Bungee Spice", sans-serif;
+    margin-bottom: 50px;
+}
+
+.kkk {
+
+    background-image: url(hehe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: green;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hhh {
+    box-sizing: border-box;
+    text-align: center;
+    background: green;
+    color: aliceblue;
+    padding: 50px 40px;
+    border: 5px solid #000;
+    height: 100px;
+    margin-bottom: 50px;
+}
